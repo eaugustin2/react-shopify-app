@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "404e9597389c4e1a34b730ac2d90d92a"
+name = "appointment-app"
+handle = "appointment-app-3"
+application_url = "https://tramadol-gamespot-retain-tent.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "appointmentteststore.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://tramadol-gamespot-retain-tent.trycloudflare.com/auth/callback",
+  "https://tramadol-gamespot-retain-tent.trycloudflare.com/auth/shopify/callback",
+  "https://tramadol-gamespot-retain-tent.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
