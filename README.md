@@ -6,6 +6,13 @@ Rather than cloning this repo, you can use your preferred package manager and th
 
 Visit the [`shopify.dev` documentation](https://shopify.dev/docs/api/shopify-app-remix) for more details on the Remix app package.
 
+# Personal Notes
+
+1. Do a npm install in root directory as well as react-app
+2. When using this generate a new extension using shopify app generate extension
+3. Change output location in webpack for the new extension you created
+4. Output should always point to assets folder
+
 ## Quick start
 
 ### Prerequisites
