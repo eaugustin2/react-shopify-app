@@ -14,6 +14,27 @@ Visit the [`shopify.dev` documentation](https://shopify.dev/docs/api/shopify-app
 4. Output should always point to assets folder
 5. Create an api route in Remix to access Prisma DB from react-app (will need a proxy for PROD)
 6. Add port=ANY-Number in shopify.web.toml to have Remix server start on same server everytime.
+7. Add this to liquid file once created to pass data from liquid file to React:
+```js
+<div id="container" data-button-id={{ block.settings.button_type }}></div>
+{% schema %}
+  {
+    "name": "Any Name Here",
+    "tag": "section",
+    "target": "section",
+    "javascript": "react-extension.js", <!-- name of exported js file for react -->
+    "settings": [
+      <!-- Can change names below -->
+      {
+        "type": "text",
+        "id": "button_type",
+        "label": "Button Id",
+        "default": "id123"
+      }
+    ]
+  }
+{% endschema %}
+```
 
 ## Quick start
 
