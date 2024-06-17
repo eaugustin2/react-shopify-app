@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(
       __dirname,
-      "../extensions/appointment-theme-extension/assets",
+      "../extensions/appointment-theme-extension/assets", //Update this directory if new extension is made
     ),
     filename: "react-extension.js",
   },
