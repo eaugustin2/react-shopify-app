@@ -1,0 +1,10 @@
+#react-button {
+  border: 1px black solid;
+  padding: 12px 16px;
+  text-align: center;
+  align-items: center;
+}
+
+#react-button:hover {
+  cursor: pointer;
+}
