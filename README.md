@@ -35,6 +35,11 @@ Visit the [`shopify.dev` documentation](https://shopify.dev/docs/api/shopify-app
   }
 {% endschema %}
 ```
+8. Install storybook using:
+```shell
+npx storybook@latest init
+```
+
 
 ## Quick start
 
