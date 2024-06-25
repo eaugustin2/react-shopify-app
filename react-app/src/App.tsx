@@ -4,6 +4,16 @@ import './App.css';
 
 function App() {
   return (
+    /*
+    The below is used to get the user entered id from the shopify
+    theme customization page.
+
+    Pass this down to your component of choice to retrieve saved data from Prisma
+    
+    let buttonId = document
+    .getElementById("container")
+    ?.getAttribute("data-button-id");
+    */
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
